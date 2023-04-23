@@ -33,6 +33,9 @@ settings:
   #
   nav_bar:
     enabled:                            true
+    background_color_full:              var(bg-primary)
+    background_color_collapsed:         var(bg-primary)
+    background_color_scrolled:          var(bg-primary)
 
   # ----------------------------------------------------------------------------
   # NavMenu (Desktop)

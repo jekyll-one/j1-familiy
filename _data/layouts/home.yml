@@ -133,7 +133,6 @@
 #
 # ------------------------------------------------------------------------------
 
-
 # ------------------------------------------------------------------------------
 # Layout configuration settings
 #
@@ -206,67 +205,6 @@ lanes:
   # ----------------------------------------------------------------------------
 
   # ----------------------------------------------------------------------------
-  # TEASER banner
-  #
-  #   Simple intro element for a page to give an overview on the contents
-  #   provided. Find the configuration with:
-  #
-  #     banners:  ~/_data/blocks/banner.yml
-  #
-  # NOTE:
-  #   The property 'id' of a banner element MUST be the same as specified
-  #   the configuration for banners (banner.yml).
-  #
-  # ----------------------------------------------------------------------------
-  #
-  - lane:
-      enabled:                          false
-      id:                               home_teaser_banner
-      region:                           body-main
-      type:                             async
-      properties:                       elevated-z0
-
-  # ----------------------------------------------------------------------------
-  # DIVIDER banner
-  #
-  #   Place a (dotted) line as a simple divider. Find the configuration
-  #   with:
-  #
-  #     banners:  ~/_data/blocks/banner.yml
-  #
-  # NOTE:
-  #   The property 'id' of a banner element MUST be the same as specified
-  #   the configuration for banners (banner.yml).
-  # ----------------------------------------------------------------------------
-  #
-  - lane:
-      enabled:                          false
-      id:                               divider-1
-      region:                           body-main
-      type:                             async
-      properties:                       row banner-divider mt-4 mr-0 mb-4 ml-0
-
-  # ----------------------------------------------------------------------------
-  # IMAGE banner
-  #
-  #   Places an image (full width) on a page. Can be used as a more
-  #   eye-minded divider element. Find the configuration with:
-  #
-  #     banners:  ~/_data/blocks/banner.yml
-  #
-  # NOTE:
-  #   The property 'id' of a banner element MUST be the same as specified
-  #   the configuration for banners (banner.yml).
-  #
-  # ----------------------------------------------------------------------------
-  #
-  - lane:
-      enabled:                          false
-      id:                               home_image_banner
-      region:                           body-main
-      type:                             async
-
-  # ----------------------------------------------------------------------------
   # CUSTOM content
   #
   #   Load custom rendered static HTML data files or HTML templates.
@@ -279,22 +217,13 @@ lanes:
   # ----------------------------------------------------------------------------
   #
   - lane:
-      enabled:                          false
-      id:                               custom_content
-      region:                           body-main
-      type:                             sync
-      base:                             _includes/custom
-      path:                             static
-      file:                             bs5_accordion.html
-
-  - lane:
-      enabled:                          false
+      enabled:                          true
       id:                               custom_content
       region:                           body-main
       type:                             sync
       base:                             _includes/custom
       path:                             templates
-      file:                             bs5_accordion.html
+      file:                             family_panel.html
 
   - lane:
       enabled:                          true
@@ -303,104 +232,7 @@ lanes:
       type:                             sync
       base:                             _includes/custom
       path:                             templates
-      file:                             people_panel.html
-
-  - lane:
-      enabled:                          true
-      id:                               custom_content
-      region:                           body-main
-      type:                             sync
-      base:                             _includes/custom
-      path:                             templates
-      file:                             collection_panel.html
-
-  # ----------------------------------------------------------------------------
-  # INTRO panel
-  #
-  #   Fully configurake display element, mainly used on landing
-  #   pages, to give a overview on the services provided by
-  #   the website. Find the configuration with:
-  #
-  #     panels:  ~/_data/blocks/panel.yml
-  #
-  # NOTE:
-  #   The property 'id' of a panel element MUST be the same as specified
-  #   the configuration for panels (panel.yml).
-  #
-  # ----------------------------------------------------------------------------
-  #
-  - lane:
-      enabled:                          false
-      id:                               home_intro_panel
-      region:                           body-main
-      type:                             async
-      properties:                       elevated-z1
-
-  # ----------------------------------------------------------------------------
-  # PARALLAX banner
-  #
-  #   Places an image (full width) with a parallax effect. Additionally,
-  #   a quotation text is configurable and placed centered on top of
-  #   the image. Find the configuration with:
-  #
-  #     banners:  ~/_data/blocks/banner.yml
-  #
-  # NOTE:
-  #   The property 'id' of a banner element MUST be the same as specified
-  #   the configuration for banners (banner.yml).
-  #
-  # ----------------------------------------------------------------------------
-  #
-  - lane:
-      enabled:                          false
-      id:                               home_parallax_banner
-      region:                           body-main
-      type:                             async
-      properties:                       elevated-z0
-
-  # ----------------------------------------------------------------------------
-  # SERVICE panel
-  #
-  #   Complex, but fully configurake display element (mainly used on landing
-  #   pages) to give a detailed inside view on the services provided by
-  #   the website. Find the configuration with:
-  #
-  #     panels:  ~/_data/blocks/panel.yml
-  #
-  # NOTE:
-  #   The property 'id' of a panel element MUST be the same as specified
-  #   the configuration for panels (panel.yml).
-  #
-  # ----------------------------------------------------------------------------
-  #
-  - lane:
-      enabled:                          false
-      id:                               home_service_panel
-      region:                           body-main
-      type:                             async
-      properties:                       elevated-z1
-
-  # ----------------------------------------------------------------------------
-  # PLAN panel
-  #
-  #   Displays a fully configurable pricing plan. For commercial use or
-  #   for collecting donations, e.g. via GitHub Sponsors. Find the related
-  #   configuration with:
-  #
-  #     panels:  ~/_data/blocks/panel.yml
-  #
-  # NOTE:
-  #   The property 'id' of a panel element MUST be the same as specified
-  #   the configuration for panels (panel.yml).
-  #
-  # ----------------------------------------------------------------------------
-  #
-  - lane:
-      enabled:                          false
-      id:                               home_plan_panel
-      region:                           body-main
-      type:                             async
-      properties:                       elevated-z1
+      file:                             collection_family.html
 
   # ----------------------------------------------------------------------------
   # NEWS panel

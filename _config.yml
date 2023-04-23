@@ -584,33 +584,19 @@ excerpt_truncate_words:                 100
 collections:
 
   # ----------------------------------------------------------------------------
-  # People
+  # Family
   #
-  people:
+  family:
     output:                             true
     permalink:                          /collections/public/:collection/:name/
 
   # ----------------------------------------------------------------------------
-  # Portfolio
+  # Photo Books
   #
-  portfolio:
+  photo_books:
     output:                             true
     permalink:                          /collections/public/:collection/:name/
 
-  # ----------------------------------------------------------------------------
-  # Book shelf
-  #
-  biography:
-    output:                             true
-    permalink:                          /collections/public/:collection/:name/
-
-  fantasy:
-    output:                             true
-    permalink:                          /collections/public/:collection/:name/
-
-  romance:
-    output:                             true
-    permalink:                          /collections/public/:collection/:name/
 
 # ------------------------------------------------------------------------------
 # FRONTMATTER defaults
@@ -776,45 +762,21 @@ defaults:
   #
 
   # ----------------------------------------------------------------------------
-  # People
+  # Family
   #
   - scope:
-      type:                             people
-      path:                             collections/_people
+      type:                             family
+      path:                             collections/_family
 
     values:
       layout:                           page
 
   # ----------------------------------------------------------------------------
-  # Portfolio
+  # Photo Books
   #
   - scope:
-      type:                             portfolio
-      path:                             collections/_portfolio
-
-    values:
-      layout:                           page
-
-  # ----------------------------------------------------------------------------
-  # Book Shelf
-  #
-  - scope:
-      type:                             biography
-      path:                             collections/_biography
-
-    values:
-      layout:                           page
-
-  - scope:
-      type:                             fantasy
-      path:                             collections/_fantasy
-
-    values:
-      layout:                           page
-
-  - scope:
-      type:                             romance
-      path:                             collections/_romance
+      type:                             photo_books
+      path:                             collections/_photo_books
 
     values:
       layout:                           page
