@@ -1,25 +1,25 @@
 ---
-title:                                  Title
-tagline:                                Tagline
+title:                                  Parveen Petersen
+tagline:                                Son
 description: >
                                         Use this area to describe a person. Describing a person
                                         typically involves ...
 
 categories:                             [ Person ]
-tags:                                   [ Business, Private ]
+tags:                                   [ Family Petersen ]
 
 image:
   path:                                 assets/images/collections/people/parveen-anand.jpg
   width:                                1920
   height:                               1280
-  alt:                                  Parveen Anand
+  alt:                                  Parveen Petersen
 
 person:
-  name:                                 Parveen Anand
-  role:                                 Lead Developer
+  name:                                 Parveen
+  role:                                 Son
 
 social_media:
-  enabled:                              true
+  enabled:                              false
   facebook:
     href:
   twitter:
@@ -27,6 +27,9 @@ social_media:
   linkedin:
     href:
 
+toc:                                    false
+fab_menu_id:                            default
+scrollbar:                              false
 comments:                               false
 sitemap:                                false
 personalization:                        false
@@ -48,7 +51,7 @@ resource_options:
 // Place an excerpt at the most top position
 // -----------------------------------------------------------------------------
 [role="dropcap mb-4"]
-Use this area to describe a person. Parveen Anand ...
+Use this area to describe a *person*. Parveen Petersen ...
 
 excerpt__end
 
@@ -66,6 +69,56 @@ excerpt__end
 
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
+== Describe a person (private)
+
+lorem:sentences[5]
+
+Name::
+The name of the person
+
+Age::
+The age of the person
+
+Physical Appearance::
+She|he is tall, standing at around 5 feet 10 inches. She has a slender yet
+athletic build, long limbs, and a graceful posture. Her complexion is fair,
+and her skin has a healthy glow. She|he has striking blue eyes that are
+framed by long, dark lashes. She has a heart-shaped face, high cheekbones,
+and a small, upturned nose. Her lips are full and naturally pink.
+
+Hairstyle and Color::
+She|he has luscious, wavy golden blonde hair that falls past her shoulders.
+She usually keeps it styled in loose curls, which add to her effortless and
+carefree vibe. She often parts her hair slightly to the side, allowing it to
+frame her face and highlight her features.
+
+Clothing Style::
+She|he has a fashion-forward sense of style. She often wears trendy clothing
+that reflects her confident personality. She enjoys experimenting with
+different patterns, textures, and colors and is not afraid to take risks
+with her fashion choices. She|he has a keen eye for accessories and can
+effortlessly pull off statement jewelry and fashionable handbags.
+
+Personality::
+She|he is known for her outgoing and friendly nature. She has a warm and
+approachable demeanor and is always willing to converse with anyone she meets.
+She's an extrovert who thrives in social settings and has a knack for making
+others feel comfortable in her presence. She|he is also confident and
+assertive, often taking charge of situations and easily leading.
+
+Interests and Hobbies::
+She|he is a fitness enthusiast who enjoys staying active and healthy. She's
+an avid runner and enjoys practicing yoga to balance her mind and body.
+She's also a foodie who loves trying new restaurants and experimenting with
+different cuisines. She|he is well-traveled and enjoys exploring new places,
+immersing herself in different cultures, and learning about the world.
+Overall, She|he is a confident, outgoing, and fashionable woman with a
+passion for fitness, travel, and socializing. She's a natural leader with a
+warm and approachable personality, making her someone easy to connect with
+and befriend.
+
+
+////
 == Describe a persons role (business)
 
 lorem:sentences[5]
@@ -116,52 +169,4 @@ cross-functional teams, manages projects from inception to completion and
 delivers successful outcomes. His leadership style, skills, and expertise
 make him a valuable asset to his organization, and he is known for his ability
 to drive results and exceed project goals.
-
-
-== Describe a person (private)
-
-lorem:sentences[5]
-
-Name::
-The name of the person
-
-Age::
-The age of the person
-
-Physical Appearance::
-She|he is tall, standing at around 5 feet 10 inches. She has a slender yet
-athletic build, long limbs, and a graceful posture. Her complexion is fair,
-and her skin has a healthy glow. She|he has striking blue eyes that are
-framed by long, dark lashes. She has a heart-shaped face, high cheekbones,
-and a small, upturned nose. Her lips are full and naturally pink.
-
-Hairstyle and Color::
-She|he has luscious, wavy golden blonde hair that falls past her shoulders.
-She usually keeps it styled in loose curls, which add to her effortless and
-carefree vibe. She often parts her hair slightly to the side, allowing it to
-frame her face and highlight her features.
-
-Clothing Style::
-She|he has a fashion-forward sense of style. She often wears trendy clothing
-that reflects her confident personality. She enjoys experimenting with
-different patterns, textures, and colors and is not afraid to take risks
-with her fashion choices. She|he has a keen eye for accessories and can
-effortlessly pull off statement jewelry and fashionable handbags.
-
-Personality::
-She|he is known for her outgoing and friendly nature. She has a warm and
-approachable demeanor and is always willing to converse with anyone she meets.
-She's an extrovert who thrives in social settings and has a knack for making
-others feel comfortable in her presence. She|he is also confident and
-assertive, often taking charge of situations and easily leading.
-
-Interests and Hobbies::
-She|he is a fitness enthusiast who enjoys staying active and healthy. She's
-an avid runner and enjoys practicing yoga to balance her mind and body.
-She's also a foodie who loves trying new restaurants and experimenting with
-different cuisines. She|he is well-traveled and enjoys exploring new places,
-immersing herself in different cultures, and learning about the world.
-Overall, She|he is a confident, outgoing, and fashionable woman with a
-passion for fitness, travel, and socializing. She's a natural leader with a
-warm and approachable personality, making her someone easy to connect with
-and befriend.
+////

@@ -223,7 +223,7 @@ lanes:
       type:                             sync
       base:                             _includes/custom
       path:                             templates
-      file:                             family_panel.html
+      file:                             family_member_panel.html
 
   - lane:
       enabled:                          true
@@ -232,7 +232,7 @@ lanes:
       type:                             sync
       base:                             _includes/custom
       path:                             templates
-      file:                             collection_family.html
+      file:                             photobook_panel.html
 
   # ----------------------------------------------------------------------------
   # NEWS panel
@@ -249,7 +249,7 @@ lanes:
   # ----------------------------------------------------------------------------
   #
   - lane:
-      enabled:                          true
+      enabled:                          false
       id:                               home_news_panel
       region:                           body-main
       type:                             async

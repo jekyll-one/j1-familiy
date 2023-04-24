@@ -1,6 +1,6 @@
 <!--
  # -----------------------------------------------------------------------------
- #  ~/assets/custom/content/templates/people_panel.html
+ #  ~/assets/custom/content/templates/family_member_panel.html
  #
  #  Product/Info:
  #  http://jekyll.one
@@ -26,7 +26,7 @@
 {% comment %} Set grid data
 -------------------------------------------------------------------------------- {% endcomment %}
 {% assign grid_title                  = collection_name | capitalize %}
-{% assign grid_tagline                = "meet us" %}
+{% assign grid_tagline                = "We are the Petersens" %}
 {% assign card_translate_description  = "notranslate" %}
 
 {% comment %} Collect collection documents
@@ -58,8 +58,17 @@
       <div class="col-lg-4 col-md-3 col-sm-6 mb-4">
         <div class="people-member">
           <img class="mx-auto rounded-circle" src="{{article.image.path | relative_url}}" alt="{{article.person.name | escape}}" />
+          <div class="article-caption">
+            <div class="article-caption-heading mt-2">
+              <a class="h3 card-link" href="{{article.url}}">{{article.person.name}}</a>
+            </div>
+            <div class="article-caption-subheading text-muted">{{article.person.role}}</div>
+          </div>
+
+          <!--
           <h3 class="mt-2">{{article.person.name}}</h3>
           <p>{{article.person.role}}</p>
+          -->
 
           {% comment %} social media (links)
           ---------------------------------------------------------------------- {% endcomment %}

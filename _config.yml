@@ -593,7 +593,7 @@ collections:
   # ----------------------------------------------------------------------------
   # Photo Books
   #
-  photo_books:
+  photobooks:
     output:                             true
     permalink:                          /collections/public/:collection/:name/
 
@@ -775,8 +775,8 @@ defaults:
   # Photo Books
   #
   - scope:
-      type:                             photo_books
-      path:                             collections/_photo_books
+      type:                             photobooks
+      path:                             collections/_photobooks
 
     values:
       layout:                           page

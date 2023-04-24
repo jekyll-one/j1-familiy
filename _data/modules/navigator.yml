@@ -33,6 +33,7 @@ settings:
   #
   nav_bar:
     enabled:                            true
+    nav_item_color:                     '#fff'
     background_color_full:              var(bg-primary)
     background_color_collapsed:         var(bg-primary)
     background_color_scrolled:          var(bg-primary)
@@ -42,12 +43,17 @@ settings:
   #
   nav_menu:
     enabled:                            true
+#    icon_color:                         '#fff'
+#    menu_item_color:                    '#fff'
+#    menu_item_color_hover:              '#9E9E9E'
 
   # ----------------------------------------------------------------------------
   # NavQuicklinks
   #
   nav_quicklinks:
     enabled:                            true
+    icon_color:                         '#fff'
+    icon_color_hover:                   '#9E9E9E'
 
   # ----------------------------------------------------------------------------
   # NavTopsearch

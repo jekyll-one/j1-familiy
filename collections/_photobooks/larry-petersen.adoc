@@ -1,0 +1,78 @@
+---
+title:                                  Larry Petersen
+tagline:                                Years 1975 - 2022
+description: >
+                                        Use this area to describe a photobook. Describing a
+                                        photobook typically involves ...
+
+categories:                             [ Photobook ]
+tags:                                   [ Larry Petersen ]
+
+image:
+  path:                                 assets/images/collections/people/larry-parker.jpg
+  width:                                1920
+  height:                               1280
+  alt:                                  Larry Petersen
+
+book:
+  author:                               Larry Petersen
+  cover:                                /assets/images/collections/people/larry-parker.jpg
+  name:                                 Larrys Images
+  published:                            2023
+  pages:                                1
+
+toc:                                    true
+fab_menu_id:                            open_toc
+scrollbar:                              false
+regenerate:                             false
+comments:                               false
+sitemap:                                false
+personalization:                        false
+exclude_from_search:                    true
+
+resources:                              [ animate ]
+resource_options:
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+// Place an excerpt at the most top position
+// -----------------------------------------------------------------------------
+[role="dropcap mb-4"]
+Use this area to describe a *photobook*. Describing a photobook typically
+involves ...
+
+excerpt__end
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="none" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+== Larrys Photobooks
+
+lorem:sentences[5]
+
+=== Photobook 1975 - 2000
+
+lorem:sentences[3]
+
+=== Photobook 2001 - 2022
+
+lorem:sentences[3]
