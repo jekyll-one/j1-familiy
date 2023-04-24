@@ -8,24 +8,18 @@ description: >
 categories:                             [ Person ]
 tags:                                   [ Family Petersen ]
 
-image:
-  path:                                 assets/images/collections/people/parveen-anand.jpg
-  width:                                1920
-  height:                               1280
-  alt:                                  Parveen Petersen
-
 person:
   name:                                 Parveen
   role:                                 Son
-
-social_media:
-  enabled:                              false
-  facebook:
-    href:
-  twitter:
-    href:
-  linkedin:
-    href:
+  image:                                /assets/images/collections/people/parveen-anand.jpg
+  social_media:
+    enabled:                            false
+    facebook:
+      href:
+    twitter:
+      href:
+    linkedin:
+      href:
 
 toc:                                    false
 fab_menu_id:                            default
@@ -72,6 +66,12 @@ excerpt__end
 == Describe a person (private)
 
 lorem:sentences[5]
+
+[role="mt-4 mb-4"]
+image:{{page.person.image}}[width=350, role="mr-4 float-left"]
+
+lorem:sentences[20]
+
 
 Name::
 The name of the person

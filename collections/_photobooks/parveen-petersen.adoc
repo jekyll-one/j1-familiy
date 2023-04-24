@@ -2,8 +2,8 @@
 title:                                  Parveen Petersen
 tagline:                                Years 1971 - 2022
 description: >
-                                        Use this area to describe a photobook. Describing a
-                                        photobook typically involves ...
+                                        Use this area to describe available photobooks. Describing
+                                        photobooks typically involves ...
 
 categories:                             [ Photobook ]
 tags:                                   [ Parveen Petersen ]
@@ -46,7 +46,7 @@ resource_options:
 // Place an excerpt at the most top position
 // -----------------------------------------------------------------------------
 [role="dropcap mb-4"]
-Use this area to describe a *photobook*. Describing a photobook typically
+Use this area to describe a *photobook*. Describing *photobooks* typically
 involves ...
 
 excerpt__end

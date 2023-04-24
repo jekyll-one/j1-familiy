@@ -169,9 +169,9 @@ settings:
             type:                       about
             enabled:                    true
 
-            title:                      Starter
+            title:                      Family
             title_translation:          notranslate
-            tagline:                    featured template for jekyll
+            tagline:                    a photobook collection for jekyll
             text: >
                                         This template gives web developers and hobbyists
                                         a clean implementation in Jekyll for starting new projects

@@ -249,7 +249,7 @@ lanes:
   # ----------------------------------------------------------------------------
   #
   - lane:
-      enabled:                          false
+      enabled:                          true
       id:                               home_news_panel
       region:                           body-main
       type:                             async

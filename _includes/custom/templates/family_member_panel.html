@@ -52,12 +52,12 @@
     </div>
     <!-- /Header -->
 
-    <div class="row">
+    <div id="collection_{{collection_name}}" class="row">
       {% for article in articles %}
 
       <div class="col-lg-4 col-md-3 col-sm-6 mb-4">
         <div class="people-member">
-          <img class="mx-auto rounded-circle" src="{{article.image.path | relative_url}}" alt="{{article.person.name | escape}}" />
+          <img class="mx-auto rounded-circle" src="{{article.person.image | relative_url}}" alt="{{article.person.name | escape}}" />
           <div class="article-caption">
             <div class="article-caption-heading mt-2">
               <a class="h3 card-link" href="{{article.url}}">{{article.person.name}}</a>
@@ -74,7 +74,7 @@
           ---------------------------------------------------------------------- {% endcomment %}
           {% if article.social_media.enabled %}
           <ul class="social-icons">
-            {% if article.social_media.facebook.href contains 'http' %}
+            {% if article.person.social_media.facebook.href contains 'http' %}
               <li>
                 <a id="personFacebookButton"
                    href="{{{article.social_media.facebook.href}}"
@@ -96,7 +96,7 @@
               </li>
             {% endif %}
 
-            {% if article.social_media.twitter.href contains 'http' %}
+            {% if article.person.social_media.twitter.href contains 'http' %}
               <li>
                 <a id="personTwitterButton"
                    href="{{{article.social_media.twitter.href}}"
@@ -118,7 +118,7 @@
               </li>
             {% endif %}
 
-            {% if article.social_media.linkedin.href contains 'http' %}
+            {% if article.person.social_media.linkedin.href contains 'http' %}
               <li>
                 <a id="personLinkedinButton"
                    href="{{{article.social_media.linkedin.href}}"

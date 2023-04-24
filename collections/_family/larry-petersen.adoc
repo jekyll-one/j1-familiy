@@ -8,24 +8,18 @@ description: >
 categories:                             [ Person ]
 tags:                                   [ Family Petersen ]
 
-image:
-  path:                                 assets/images/collections/people/larry-parker.jpg
-  width:                                1920
-  height:                               1280
-  alt:                                  Larry Petersen
-
 person:
   name:                                 Larry
   role:                                 Son
-
-social_media:
-  enabled:                              false
-  facebook:
-    href:
-  twitter:
-    href:
-  linkedin:
-    href:
+  image:                                /assets/images/collections/people/larry-parker.jpg
+  social_media:
+    enabled:                            false
+    facebook:
+      href:
+    twitter:
+      href:
+    linkedin:
+      href:
 
 toc:                                    false
 fab_menu_id:                            default
@@ -51,7 +45,7 @@ resource_options:
 // Place an excerpt at the most top position
 // -----------------------------------------------------------------------------
 [role="dropcap mb-4"]
-Use this area to describe a *person*. Larry Petersen ...
+Use this area to describe a *person*.
 
 excerpt__end
 
@@ -72,6 +66,12 @@ excerpt__end
 == Describe a person (private)
 
 lorem:sentences[5]
+
+[role="mt-4 mb-4"]
+image:{{page.person.image}}[width=350, role="mr-4 float-left"]
+
+lorem:sentences[20]
+
 
 Name::
 The name of the person

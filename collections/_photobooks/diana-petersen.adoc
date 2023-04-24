@@ -2,7 +2,7 @@
 title:                                  Diana Petersen
 tagline:                                Years 1981 - 2022
 description: >
-                                        Use this area to describe a photobook. Describing a
+                                        Use this area to describe available photobooks. Describing
                                         photobook typically involves ...
 
 categories:                             [ Photobook ]
@@ -46,8 +46,8 @@ resource_options:
 // Place an excerpt at the most top position
 // -----------------------------------------------------------------------------
 [role="dropcap mb-4"]
-Use this area to describe a photobook. Describing a photobook typically
-involves ...
+Use this area to describe available *photobooks*. Describing *photobooks*
+typically involves ...
 
 excerpt__end
 

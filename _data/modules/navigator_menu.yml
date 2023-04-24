@@ -19,20 +19,26 @@
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
-# TopLevel item FAMILY
+# Menu item FAMILY (topLevel)
 #
-- item:                                 Family
+- item:                                 Petersens
   href:                                 /#family
 
 # ------------------------------------------------------------------------------
-# TopLevel item PHOTO BOOKS
+# Menu item PHOTO BOOKS (topLevel)
 #
 - item:                                 Photo Books
   href:                                 /#photobooks
 
-# # ------------------------------------------------------------------------------
-# # Menu BLOG
-# #
+# ------------------------------------------------------------------------------
+# TopLevel item BLOG POSTS (topLevel)
+#
+- item:                                 Blog Posts
+  href:                                 /#home_news_panel
+
+# ------------------------------------------------------------------------------
+# Menu BLOG (dropdown)
+#
 # - item:                                 Blog
 #   sublevel:
 #
@@ -48,10 +54,10 @@
 #     - title:                            Archive
 #       href:                             /pages/public/blog/navigator/archive/allview/
 #       icon:                             archive
+
+# ------------------------------------------------------------------------------
+# Menu Themes (dropdown)
 #
-# # ------------------------------------------------------------------------------
-# # Menu Themes
-# #
 # - item:                                 Theme
 #   theme_select:
 #     - preview:                          enabled
@@ -64,11 +70,10 @@
 #     - bootswatch_themes:                enabled
 #       title:                            Bootswatch
 #       icon:                             bootstrap
+
+# ------------------------------------------------------------------------------
+# Menu ABOUT (dropdown)
 #
-#
-# # ------------------------------------------------------------------------------
-# # Menu ABOUT
-# #
 # - item:                                 About
 #   sublevel:
 #     - title:                            Starter
