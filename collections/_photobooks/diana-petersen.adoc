@@ -75,7 +75,7 @@ lorem:sentences[5]
 lorem:sentences[3]
 
 .1981 - 2000
-masonry::image_grid_lightbox_example[role="mb-4"]
+masonry::image_grid_base_example[role="mb-4"]
 
 
 === Photobook 2001 - 2022
@@ -83,4 +83,4 @@ masonry::image_grid_lightbox_example[role="mb-4"]
 lorem:sentences[3]
 
 .2001 - 2022
-masonry::image_grid_lightbox_example_2[role="mb-4"]
+masonry::image_grid_full_example[role="mb-4"]
